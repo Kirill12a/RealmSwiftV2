@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A5E37152D3E896DCCD3B5DD6 /* Pods_RealmSwiftV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8093E96285C3F07C2BEB8A54 /* Pods_RealmSwiftV2.framework */; };
+		D27F0FDC274FB46D00D6646A /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F0FDB274FB46D00D6646A /* House.swift */; };
 		D2CDCF66274F94FE005B7D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CDCF65274F94FE005B7D73 /* AppDelegate.swift */; };
 		D2CDCF68274F94FE005B7D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CDCF67274F94FE005B7D73 /* SceneDelegate.swift */; };
 		D2CDCF6A274F94FE005B7D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CDCF69274F94FE005B7D73 /* ViewController.swift */; };
 		D2CDCF6D274F94FE005B7D73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CDCF6B274F94FE005B7D73 /* Main.storyboard */; };
 		D2CDCF6F274F94FF005B7D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CDCF6E274F94FF005B7D73 /* Assets.xcassets */; };
 		D2CDCF72274F94FF005B7D73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CDCF70274F94FF005B7D73 /* LaunchScreen.storyboard */; };
+		D2CDCF7A274FAFD3005B7D73 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CDCF79274FAFD3005B7D73 /* UserModel.swift */; };
+		D2CDCF7C274FB029005B7D73 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CDCF7B274FB029005B7D73 /* DBManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8093E96285C3F07C2BEB8A54 /* Pods_RealmSwiftV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmSwiftV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B29DEBF7563404F4A7F7578 /* Pods-RealmSwiftV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSwiftV2.debug.xcconfig"; path = "Target Support Files/Pods-RealmSwiftV2/Pods-RealmSwiftV2.debug.xcconfig"; sourceTree = "<group>"; };
+		D27F0FDB274FB46D00D6646A /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		D2CDCF62274F94FE005B7D73 /* RealmSwiftV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmSwiftV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CDCF65274F94FE005B7D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CDCF67274F94FE005B7D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +31,8 @@
 		D2CDCF6E274F94FF005B7D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2CDCF71274F94FF005B7D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2CDCF73274F94FF005B7D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CDCF79274FAFD3005B7D73 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D2CDCF7B274FB029005B7D73 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		DC45D409250B6FDAB898E7AB /* Pods-RealmSwiftV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSwiftV2.release.xcconfig"; path = "Target Support Files/Pods-RealmSwiftV2/Pods-RealmSwiftV2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +54,6 @@
 				9B29DEBF7563404F4A7F7578 /* Pods-RealmSwiftV2.debug.xcconfig */,
 				DC45D409250B6FDAB898E7AB /* Pods-RealmSwiftV2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +89,9 @@
 				D2CDCF65274F94FE005B7D73 /* AppDelegate.swift */,
 				D2CDCF67274F94FE005B7D73 /* SceneDelegate.swift */,
 				D2CDCF69274F94FE005B7D73 /* ViewController.swift */,
+				D2CDCF79274FAFD3005B7D73 /* UserModel.swift */,
+				D27F0FDB274FB46D00D6646A /* House.swift */,
+				D2CDCF7B274FB029005B7D73 /* DBManager.swift */,
 				D2CDCF6B274F94FE005B7D73 /* Main.storyboard */,
 				D2CDCF6E274F94FF005B7D73 /* Assets.xcassets */,
 				D2CDCF70274F94FF005B7D73 /* LaunchScreen.storyboard */,
@@ -207,8 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CDCF7C274FB029005B7D73 /* DBManager.swift in Sources */,
 				D2CDCF6A274F94FE005B7D73 /* ViewController.swift in Sources */,
 				D2CDCF66274F94FE005B7D73 /* AppDelegate.swift in Sources */,
+				D2CDCF7A274FAFD3005B7D73 /* UserModel.swift in Sources */,
+				D27F0FDC274FB46D00D6646A /* House.swift in Sources */,
 				D2CDCF68274F94FE005B7D73 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
